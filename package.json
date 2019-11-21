@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "start-debug": "node --inspect-brk ./bin/www",
+    "start": "node -r dotenv/config ./bin/www",
+    "start-debug": "node -r dotenv/config --inspect-brk ./bin/www",
     "test": "mocha --recursive --reporter spec",
     "test-debug": "mocha --recursive --debug-brk",
-    "jvm": "node  ./teste-java.js"
+    "jvm": "node ./teste-java.js"
   },
   "engines": {
     "node": "~0.10.13",
