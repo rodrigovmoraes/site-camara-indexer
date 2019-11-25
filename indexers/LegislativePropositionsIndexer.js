@@ -119,6 +119,7 @@ module.exports = function() {
                              'subtypeDescription': currentRow.typeDescription,
                              'datasourceId': currentRow._id,
                              'date': currentRow.changedDate ? currentRow.changedDate : currentRow.creationDate,
+                             'dateDescription': currentRow.date ? currentRow.date : null,
                              'title': currentRow.typeDescription + " " + _.padStart(currentRow.number, 3, '0') + "/" + currentRow.year,
                              'description': currentRow.description,
                              'contentType': "text/html",
