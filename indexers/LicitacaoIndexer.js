@@ -118,7 +118,6 @@ module.exports = function() {
                      'typeDescription': _typeDescription,
                      'subtypeDescription': currentRow.licitacao && currentRow.licitacao.category ? currentRow.licitacao.category.description : null,
                      'datasourceId': currentRow._id,
-                     'dateDescription': currentRow.date ? currentRow.date : null,
                      'date': _getRepresentativaDate(currentRow),
                      'title': _getTitle(currentRow),
                      'description': currentRow.licitacao ? currentRow.licitacao.description : currentRow.description
@@ -158,6 +157,7 @@ module.exports = function() {
                                          'typeDescription': _typeDescription,
                                          'subtypeDescription': currentRow.licitacao && currentRow.licitacao.category ? currentRow.licitacao.category.description : null,
                                          'datasourceId': currentRow._id,
+                                         'dateDescription': currentRow.date ? currentRow.date : null,
                                          'date': _getRepresentativaDate(currentRow),
                                          'title': _getTitle(currentRow),
                                          'description': currentRow.licitacao ? currentRow.licitacao.description : currentRow.description,

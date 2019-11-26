@@ -91,7 +91,6 @@ module.exports = function() {
                      'typeDescription': _typeDescription,
                      'subtypeDescription': null,
                      'datasourceId': currentRow.id,
-                     'dateDescription': currentRow.publicationDate ? currentRow.publicationDate : null,
                      'date': currentRow.changedDate ? currentRow.changedDate : currentRow.creationDate,
                      'title': currentRow.title,
                      'description': currentRow.headline
@@ -117,6 +116,7 @@ module.exports = function() {
                                 'typeDescription': _typeDescription,
                                 'subtypeDescription': null,
                                 'datasourceId': currentRow.id,
+                                'dateDescription': currentRow.publicationDate ? currentRow.publicationDate : null,
                                 'date': currentRow.changedDate ? currentRow.changedDate : currentRow.creationDate,
                                 'title': currentRow.title,
                                 'description': currentRow.headline,

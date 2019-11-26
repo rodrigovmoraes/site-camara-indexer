@@ -90,7 +90,6 @@ module.exports = function() {
                      'typeDescription': _typeDescription,
                      'subtypeDescription': currentRow.extension,
                      'datasourceId': currentRow._id,
-                     'dateDescription': currentRow.creationDate,
                      'date': currentRow.creationDate,
                      'title': currentRow.description, //get more detailed title in getDataDetail
                      'description': null
@@ -133,6 +132,7 @@ module.exports = function() {
                                                    'typeDescription': _typeDescription,
                                                    'subtypeDescription': currentRow.extension,
                                                    'datasourceId': currentRow._id,
+                                                   'dateDescription': currentRow.creationDate,
                                                    'date': currentRow.creationDate,
                                                    'title': result.folderPath && result.folderPath !== '' ? result.folderPath + " > " + currentRow.description : currentRow.description,
                                                    'description': null,

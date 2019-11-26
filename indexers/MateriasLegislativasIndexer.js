@@ -93,7 +93,6 @@ module.exports = function() {
                      'typeDescription': _typeDescription,
                      'subtypeDescription': currentRow.tipoDocumento,
                      'datasourceId': currentRow.id,
-                     'dateDescription': currentRow.data_apresentacao ? currentRow.data_apresentacao : null,
                      'date': currentRow.ultimaAtualizacao,
                      'title': currentRow.tipoDocumento + " " + _.padStart(currentRow.numero, 3, '0') + "/" + currentRow.ano,
                      'description': currentRow.ementa
@@ -131,6 +130,7 @@ module.exports = function() {
                                          'typeDescription': _typeDescription,
                                          'subtypeDescription': currentRow.tipoDocumento,
                                          'datasourceId': currentRow.id,
+                                         'dateDescription': currentRow.data_apresentacao ? currentRow.data_apresentacao : null,
                                          'date': currentRow.ultimaAtualizacao,
                                          'title': currentRow.tipoDocumento + " " + _.padStart(currentRow.numero, 3, '0') + "/" + currentRow.ano,
                                          'description': currentRow.ementa,
