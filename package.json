@@ -23,7 +23,7 @@
     "dotenv": "^1.2.0",
     "elasticsearch": "^15.4.1",
     "express": "~4.9.0",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "hogan-express": "^0.5.2",
     "html-to-text": "^5.1.1",
     "jsonwebtoken": "^8.5.1",
