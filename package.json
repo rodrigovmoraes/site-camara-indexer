@@ -27,7 +27,7 @@
     "hogan-express": "^0.5.2",
     "html-to-text": "^5.1.1",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "mocha": "^3.4.1",
     "mongoose": "^5.4.21",
     "mongoose-deep-populate": "^3.1.1",
